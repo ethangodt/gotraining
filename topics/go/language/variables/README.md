@@ -2,6 +2,16 @@
 
 Variables are at the heart of the language and provide the ability to read from and write to memory. In Go, access to memory is type safe. This means the compiler takes type seriously and will not allow us to use variables outside the scope of how they are declared.
 
+## Zero Values
+```
+Boolean: false
+Integer: 0
+Floating Point: 0
+Complex: 0i
+String: "" (empty string)
+Pointer: nil
+```
+
 ## Notes
 
 * When variables are being declared to their zero value, use the keyword var.
