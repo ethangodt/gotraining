@@ -4,13 +4,9 @@ Variables are at the heart of the language and provide the ability to read from 
 
 ## Notes
 
-* The purpose of all programs and all parts of those programs it to transform data from one form to the other.
-* Code primarily allocates, reads and writes to memory.
-* Understanding type is crucial to writing good code and understanding code.
-* If you don't understand the data, you don't understand the problem.
-* You understand the problem better by understanding the data.
 * When variables are being declared to their zero value, use the keyword var.
-* When variables are being declared and initialized, use the short variable declaration operator.
+* When variables are being declared and initialized, use the short variable declaration operator `:=`.
+* You don't need to use `:=` or type if an initializer (i.e. it has an initial value) is present, the type can be omitted; the variable will take the type of the initializer.
 
 ## Links
 
